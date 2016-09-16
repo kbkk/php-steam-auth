@@ -1,0 +1,24 @@
+{
+  "name": "kbkk/php-steam-auth",
+  "description": "Sign in users with Steam (stateless OpenID)",
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jakub Kisielewski",
+      "email": "sejntcik@gmail.com",
+      "homepage": "http://kbkk.pl/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SteamAuth\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  }
+}
