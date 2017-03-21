@@ -7,6 +7,10 @@ Probably needs to be rethinked
 - PHP >=5.5
 - Guzzle 6
 
+# Composer
+
+``` composer require kbkk/php-steam-auth ```
+
 # Usage example
 
 ```php
