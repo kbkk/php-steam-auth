@@ -2,7 +2,7 @@
   "name": "kbkk/php-steam-auth",
   "description": "Sign in users with Steam (stateless OpenID)",
   "require": {
-    "php": ">=5.5.0",
+    "php": ">=7.2.5",
     "guzzlehttp/guzzle": "^7.0"
   },
   "license": "MIT",
