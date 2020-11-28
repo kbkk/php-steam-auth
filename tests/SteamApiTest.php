@@ -5,7 +5,7 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use SteamAuth\SteamApi;
 
-class SteamApiTest extends PHPUnit_Framework_TestCase
+class SteamApiTest extends PHPUnit\Framework\TestCase
 {
     private $apiKey;
     private $httpClient;
@@ -19,7 +19,7 @@ class SteamApiTest extends PHPUnit_Framework_TestCase
      */
     private $steamApi;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->apiKey = '';
         $this->mock = new MockHandler();
