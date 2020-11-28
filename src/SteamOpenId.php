@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Dziadzia
- * Date: 2016-05-29
- * Time: 20:41
- */
 
 namespace SteamAuth;
-
 
 use GuzzleHttp\ClientInterface;
 
